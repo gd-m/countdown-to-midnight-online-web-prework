@@ -3,7 +3,7 @@
 def countdown(count)
   n = 0
   z = count
-  while n <= z
+  while n < z
     print "#{count} SECOND(S)!"
     count -= 1
     n += 1
