@@ -6,5 +6,5 @@ def countdown(count)
     count -= 1
     puts "#{phrase}"
   end
-  return "HAPPY NEW YEAR!"
+  puts "HAPPY NEW YEAR!"
 end
