@@ -2,7 +2,9 @@
 
 def countdown
   while countdown <= 0
-    puts "#{countdown} SECOND(s)!"
+    phrase = "#{countdown} SECOND(S)!"
     countdown -= 1
+    puts "#{phrase}"
   end
+  return "HAPPY NEW YEAR!"
 end
